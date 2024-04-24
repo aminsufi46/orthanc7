@@ -4,3 +4,4 @@
 function OnStoredInstance(instanceId, tags, metadata, origin)
    SendToModality(instanceId, 'TESTENV2')
 end
+System.out.print("print");
